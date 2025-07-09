@@ -1,5 +1,4 @@
-
-import { Button } from '@/components/ui/button';
+import { Button } from "@/components/ui/button";
 
 const Navigation = () => {
   return (
@@ -7,23 +6,28 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img 
-              src="/lovable-uploads/12660c36-1b8c-4332-9c59-82d0869ab1f0.png" 
-              alt="CLIC Logo" 
+            <img
+              src="/lovable-uploads/12660c36-1b8c-4332-9c59-82d0869ab1f0.png"
+              alt="CLIC Logo"
               className="h-8 w-auto"
             />
-            <span className="text-white text-xl font-bold">CLIC</span>
           </div>
-          
+
           <div className="hidden md:flex items-center gap-6">
-            <a href="#features" className="text-white/80 hover:text-white transition-colors">
+            <a
+              href="#features"
+              className="text-white/80 hover:text-white transition-colors"
+            >
               Features
             </a>
-            <a href="#download" className="text-white/80 hover:text-white transition-colors">
+            <a
+              href="#download"
+              className="text-white/80 hover:text-white transition-colors"
+            >
               Download
             </a>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               className="bg-gray-900 border-gray-700 text-white hover:bg-gray-800 backdrop-blur-sm"
             >
               Get Started
