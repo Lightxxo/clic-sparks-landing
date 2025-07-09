@@ -24,7 +24,7 @@ const Navigation = () => {
             </a>
             <Button 
               variant="outline" 
-              className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm"
+              className="bg-gray-900 border-gray-700 text-white hover:bg-gray-800 backdrop-blur-sm"
             >
               Get Started
             </Button>
