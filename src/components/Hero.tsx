@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 const Hero = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 relative overflow-hidden">
+    <section className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 relative overflow-hidden pt-20">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl animate-pulse"></div>
@@ -35,29 +35,20 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button size="lg" className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-xl">
+              <Button 
+                size="lg" 
+                className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-6 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              >
                 <Play className="w-5 h-5 mr-2" />
                 Watch Demo
               </Button>
-              <Button size="lg" variant="outline" className="border-2 border-white/30 text-white hover:bg-white/10 px-8 py-4 text-lg font-semibold rounded-full backdrop-blur-sm transition-all duration-300 hover:scale-105">
+              <Button 
+                size="lg" 
+                variant="outline" 
+                className="border-2 border-white/30 text-white hover:bg-white/10 px-8 py-6 text-lg font-semibold rounded-full backdrop-blur-sm transition-all duration-300 hover:scale-105"
+              >
                 Learn More
               </Button>
-            </div>
-
-            {/* Stats */}
-            <div className="flex flex-wrap gap-8 pt-8">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-white">10K+</div>
-                <div className="text-white/60">Active Users</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-white">50K+</div>
-                <div className="text-white/60">Connections Made</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-white">95%</div>
-                <div className="text-white/60">Success Rate</div>
-              </div>
             </div>
           </div>
 
